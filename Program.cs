@@ -6,10 +6,10 @@ namespace GitExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
-            myClass myclass = new myClass();
             
+
+            myClass myclass1 = new myClass("Dorte", "bølgen", 1234, "bølle");
+            Console.WriteLine(myclass1.ToString());
 
 
         }
